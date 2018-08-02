@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Password Wallet</string>
+    <string name="description">description</string>
+    <string name="password">password</string>
+</resources>

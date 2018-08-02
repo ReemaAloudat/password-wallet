@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faa2b1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:background="#f8c49f"
+        android:text="Title :"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/titleET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#fdfafa"
+        android:hint="Account title"
+
+        android:imeOptions="actionNext"
+
+        android:inputType="text"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:background="#f8c49f"
+        android:text="Account :"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/accountET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#fcf7f7"
+        android:hint="your account"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:background="#f8c49f"
+        android:text="Password :"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#fbf9f9"
+        android:hint="your password"
+        android:inputType="textPassword"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#f8c49f"
+        android:text="Save"
+        android:onClick="btnClick"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/listbutton"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#f8c49f"
+        android:onClick="btnclick"
+        android:text="List my passwords"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

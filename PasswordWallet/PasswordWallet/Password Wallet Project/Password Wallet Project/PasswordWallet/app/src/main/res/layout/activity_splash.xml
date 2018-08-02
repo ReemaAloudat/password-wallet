@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faa2b1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/lockpassword" />
+
+    <TextView
+
+        android:layout_width="269dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:fontFeatureSettings="@string/password"
+        android:gravity="center"
+        android:text="Password Wallet"
+        android:textColor="#f3d85f"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

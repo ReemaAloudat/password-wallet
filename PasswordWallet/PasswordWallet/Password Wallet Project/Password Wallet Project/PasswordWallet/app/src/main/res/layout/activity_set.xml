@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faa2b1"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/download" />
+
+
+    <TextView
+        android:id="@+id/setPass"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#f8c49f"
+        android:gravity="center"
+        android:text="Set password"
+
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/passwordET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fefefe"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="left"
+                android:hint="password"
+                android:imeActionLabel="password"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="23dp"
+                android:textStyle="normal" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/confirmET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fefefe"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="left"
+                android:hint="confirm password"
+                android:imeActionLabel="confirm password"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="23dp"
+                android:textStyle="normal" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#f8c49f"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="OK"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lunch"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#f8c49f"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:onClick="btnclick"
+        android:text="launch"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
